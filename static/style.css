@@ -1,0 +1,49 @@
+body{
+  font-family: cursive;
+  background-image: url('background.jpg');
+  color: #FFFFFF;
+}
+h1{
+  border-bottom: 2px solid #FFFFFF;
+  font-size: 250%;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: .75em;
+}
+.pane{
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  border: 5px solid;
+  border-radius: 25px;
+  padding: 40px;
+  margin: 40px;
+  border-color: #FFFFFF;
+}
+.name{
+  text-align: left;
+  font-size: 170%;
+}
+.edit, .delete{
+  text-align: left;
+  font-size: 100%;
+}
+.create_new_restaurant, .create_new_menu_item{
+  text-align: right;
+  font-size: 200%;
+}
+.menu_name{
+  display: inline-block;
+  font-size: 170%;
+}
+.price{
+  float: right;
+  text-align: right;
+  font-size: 170%;
+}
+.description{
+  font-size: 100%;
+}
