@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Delete Menu Item</title>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="pane">
+
+      <h1>Delete Menu Item</h1>
+
+      <div class="name">
+        <form action="{{ url_for('deleteMenuItem', restaurant_id = restaurant_id, menu_id = menu_id) }}" method="post">
+            <label for="">Do you really want to delete '{{ item_name }}' form '{{ restaurant_name }}'?</label><br>
+            <input type="submit" value="Delete">
+            <a href="{{ url_for('showMenu', restaurant_id = restaurant_id) }}">Cancel</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
