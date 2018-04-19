@@ -9,3 +9,10 @@ You can check the menu of the restaurants from the provided list. You can change
 - Install [VirtuaBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
 - Install [Vagrant](https://www.vagrantup.com/downloads.html)
 - Download [FSND-Virtual-Machine](https://github.com/udacity/fullstack-nanodegree-vm)
+
+## Initial setup
+
+1. On terminal change directory to your downloads and perform `cd FSND-Virtual-Machine/vagrant`
+2. Run `vagrant up`. This command will take a while for the first time.
+3. Run `vagrant ssh`
+4. On terminal change directory to vagrant directory `cd \vagrant` and place all the files and folders from this repo into it.
