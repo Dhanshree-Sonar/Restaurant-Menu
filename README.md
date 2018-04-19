@@ -16,3 +16,10 @@ You can check the menu of the restaurants from the provided list. You can change
 2. Run `vagrant up`. This command will take a while for the first time.
 3. Run `vagrant ssh`
 4. On terminal change directory to vagrant directory `cd \vagrant` and place all the files and folders from this repo into it.
+
+## Built with
+
+1. [Python](https://www.python.org/doc/)
+2. [Flask Framework](http://flask.pocoo.org/docs/0.12/)
+3. [SQLAlchemy](http://docs.sqlalchemy.org/en/latest/)
+4. [json](https://help.zendesk.com/hc/en-us/articles/229136867-Working-with-JSON) module to provide endpoint urls
